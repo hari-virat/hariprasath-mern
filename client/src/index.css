@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-container{
+  margin: 0%;
+  padding: 0%;
+  background-color:black;
+  color:white;
+  display: flex;flex-wrap: wrap;
+  width: 100%;
+
+}
+.nav-title{
+  margin-left: 45%;
+}
+.nav-link{
+  color: white;
+  margin-right: 10px;
+
+}
+.nav-link2{
+  margin-right: 5px; color: white;
+}
+
+
+.btn-reg{
+padding: 5px;
+background-color:red;
+border: none;
+border-radius: 7px;
+color:white;
+font-size: 16px;
+margin: 2px;
+width: 90%;
+
+}
+.btn-log{
+  padding: 5px;
+  background-color:green;
+  border: none;
+  border-radius: 7px;
+  color:white;
+  font-size: 16px;
+  margin: 2px;
+  width: 90%;
+
+  }
+  
+
+.img-container div{
+  display: flex;margin-left: 50px;
+  margin-right: 80px;padding: 25px;
+  width: 550;
+}
+.nav-container a{
+  text-decoration: none;
+  
+}
+
+
+.esha-title{
+  text-decoration: none;
+}
+
+.home-container{
+  background-image: URL('./screens/images/totalbg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-container div{
+width: 300px;
+margin: 27px;
+padding: 27px;
+flex-basis: 25%;
+
+}
+
+.login{
+  background-image: URL('./screens/images/totalbg1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0px;
+padding: 0px;
+
+}
+.register{
+  background-image: URL('./screens/images/totalbg1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+.log-container form{
+
+  margin-bottom: 8%;
+  margin-left: 42%;
+
+}
+
+  .esha-container{
+    background-image: URL('./screens/images/totalbg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  .kodai-container{
+    background-image: URL('./screens/images/totalbg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  .ooty-container{
+    background-image: URL('./screens/images/totalbg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  .kutralam-container{
+    background-image: URL('./screens/images/totalbg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.booking-page{
+  background-image: URL('./screens/images/totalbg1.jpg');
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.booking-button{
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  padding:7px ;
+  margin: 13px;
+}
+  
+.reg-form {
+width:200;
+height: auto;
+background-color:black;
+margin: 18px;
+padding: 18px;
+border-radius: 20px;
+display: inline-block;
+
+}
+.log-form {
+  width:200;
+  height:auto;
+  background-color:black;
+  margin: 21px;
+  padding: 21px;
+  border-radius: 20px;
+  display: inline-block;
+  
+  }
+  
